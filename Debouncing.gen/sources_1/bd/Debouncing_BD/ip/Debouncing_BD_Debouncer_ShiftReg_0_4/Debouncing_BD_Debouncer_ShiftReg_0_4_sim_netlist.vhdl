@@ -2,10 +2,10 @@
 -- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
--- Date        : Thu Apr  4 10:42:25 2024
+-- Date        : Thu Apr  4 11:03:40 2024
 -- Host        : GL-725 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               d:/Zynq_Pro/Debouncing_20240403/Debouncing/Debouncing.gen/sources_1/bd/Debouncing_BD/ip/Debouncing_BD_Debouncer_ShiftReg_0_4/Debouncing_BD_Debouncer_ShiftReg_0_4_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top Debouncing_BD_Debouncer_ShiftReg_0_4 -prefix
+--               Debouncing_BD_Debouncer_ShiftReg_0_4_ Debouncing_BD_Debouncer_ShiftReg_0_4_sim_netlist.vhdl
 -- Design      : Debouncing_BD_Debouncer_ShiftReg_0_4
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -22,8 +22,6 @@ entity Debouncing_BD_Debouncer_ShiftReg_0_4_Debouncer_ShiftReg is
     clk : in STD_LOGIC;
     btn : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of Debouncing_BD_Debouncer_ShiftReg_0_4_Debouncer_ShiftReg : entity is "Debouncer_ShiftReg";
 end Debouncing_BD_Debouncer_ShiftReg_0_4_Debouncer_ShiftReg;
 
 architecture STRUCTURE of Debouncing_BD_Debouncer_ShiftReg_0_4_Debouncer_ShiftReg is

@@ -1,2 +1,10 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/Zynq_Pro/Debouncing_20240403/Debouncing/Debouncing.srcs/sim_1/new/Debouncing_TB.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'Debouncing_TB'
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Zynq_Pro/Debouncing_20240403/Debouncing/Debouncing.ip_user_files/bd/Debouncing_BD/ip/Debouncing_BD_zynq_ultra_ps_e_0_0/sim/Debouncing_BD_zynq_ultra_ps_e_0_0_vip_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Debouncing_BD_zynq_ultra_ps_e_0_0
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Zynq_Pro/Debouncing_20240403/Debouncing/Debouncing.ip_user_files/bd/Debouncing_BD/ip/Debouncing_BD_rst_ps8_0_100M_0/sim/Debouncing_BD_rst_ps8_0_100M_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Debouncing_BD_rst_ps8_0_100M_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Zynq_Pro/Debouncing_20240403/Debouncing/Debouncing.ip_user_files/bd/Debouncing_BD/ip/Debouncing_BD_Debouncer_ShiftReg_0_4/sim/Debouncing_BD_Debouncer_ShiftReg_0_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Debouncing_BD_Debouncer_ShiftReg_0_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Zynq_Pro/Debouncing_20240403/Debouncing/Debouncing.ip_user_files/bd/Debouncing_BD/sim/Debouncing_BD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Debouncing_BD'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Zynq_Pro/Debouncing_20240403/Debouncing/Debouncing.gen/sources_1/bd/Debouncing_BD/hdl/Debouncing_BD_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Debouncing_BD_wrapper'

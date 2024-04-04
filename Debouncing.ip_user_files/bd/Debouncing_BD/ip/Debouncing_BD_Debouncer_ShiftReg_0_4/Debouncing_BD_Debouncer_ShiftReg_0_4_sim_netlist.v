@@ -2,10 +2,10 @@
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-// Date        : Thu Apr  4 10:42:25 2024
+// Date        : Thu Apr  4 11:03:40 2024
 // Host        : GL-725 running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim
-//               d:/Zynq_Pro/Debouncing_20240403/Debouncing/Debouncing.gen/sources_1/bd/Debouncing_BD/ip/Debouncing_BD_Debouncer_ShiftReg_0_4/Debouncing_BD_Debouncer_ShiftReg_0_4_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top Debouncing_BD_Debouncer_ShiftReg_0_4 -prefix
+//               Debouncing_BD_Debouncer_ShiftReg_0_4_ Debouncing_BD_Debouncer_ShiftReg_0_4_sim_netlist.v
 // Design      : Debouncing_BD_Debouncer_ShiftReg_0_4
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -13,32 +13,6 @@
 // --------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CHECK_LICENSE_TYPE = "Debouncing_BD_Debouncer_ShiftReg_0_4,Debouncer_ShiftReg,{}" *) (* downgradeipidentifiedwarnings = "yes" *) (* ip_definition_source = "module_ref" *) 
-(* x_core_info = "Debouncer_ShiftReg,Vivado 2023.2" *) 
-(* NotValidForBitStream *)
-module Debouncing_BD_Debouncer_ShiftReg_0_4
-   (clk,
-    btn,
-    reset,
-    debounced_btn);
-  (* x_interface_info = "xilinx.com:signal:clock:1.0 clk CLK" *) (* x_interface_parameter = "XIL_INTERFACENAME clk, ASSOCIATED_RESET reset, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN Debouncing_BD_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0" *) input clk;
-  input btn;
-  (* x_interface_info = "xilinx.com:signal:reset:1.0 reset RST" *) (* x_interface_parameter = "XIL_INTERFACENAME reset, POLARITY ACTIVE_HIGH, INSERT_VIP 0" *) input reset;
-  output debounced_btn;
-
-  wire btn;
-  wire clk;
-  wire debounced_btn;
-  wire reset;
-
-  Debouncing_BD_Debouncer_ShiftReg_0_4_Debouncer_ShiftReg U0
-       (.btn(btn),
-        .clk(clk),
-        .debounced_btn(debounced_btn),
-        .reset(reset));
-endmodule
-
-(* ORIG_REF_NAME = "Debouncer_ShiftReg" *) 
 module Debouncing_BD_Debouncer_ShiftReg_0_4_Debouncer_ShiftReg
    (debounced_btn,
     reset,
@@ -462,6 +436,31 @@ module Debouncing_BD_Debouncer_ShiftReg_0_4_Debouncer_ShiftReg
         .D(p_0_in[9]),
         .Q(p_0_in[10]),
         .R(reset));
+endmodule
+
+(* CHECK_LICENSE_TYPE = "Debouncing_BD_Debouncer_ShiftReg_0_4,Debouncer_ShiftReg,{}" *) (* downgradeipidentifiedwarnings = "yes" *) (* ip_definition_source = "module_ref" *) 
+(* x_core_info = "Debouncer_ShiftReg,Vivado 2023.2" *) 
+(* NotValidForBitStream *)
+module Debouncing_BD_Debouncer_ShiftReg_0_4
+   (clk,
+    btn,
+    reset,
+    debounced_btn);
+  (* x_interface_info = "xilinx.com:signal:clock:1.0 clk CLK" *) (* x_interface_parameter = "XIL_INTERFACENAME clk, ASSOCIATED_RESET reset, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN Debouncing_BD_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0" *) input clk;
+  input btn;
+  (* x_interface_info = "xilinx.com:signal:reset:1.0 reset RST" *) (* x_interface_parameter = "XIL_INTERFACENAME reset, POLARITY ACTIVE_HIGH, INSERT_VIP 0" *) input reset;
+  output debounced_btn;
+
+  wire btn;
+  wire clk;
+  wire debounced_btn;
+  wire reset;
+
+  Debouncing_BD_Debouncer_ShiftReg_0_4_Debouncer_ShiftReg U0
+       (.btn(btn),
+        .clk(clk),
+        .debounced_btn(debounced_btn),
+        .reset(reset));
 endmodule
 `ifndef GLBL
 `define GLBL

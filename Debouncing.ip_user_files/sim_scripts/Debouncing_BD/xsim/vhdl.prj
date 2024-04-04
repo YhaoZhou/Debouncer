@@ -1,0 +1,7 @@
+vhdl xil_defaultlib  \
+"../../../bd/Debouncing_BD/ip/Debouncing_BD_rst_ps8_0_100M_0/sim/Debouncing_BD_rst_ps8_0_100M_0.vhd" \
+"../../../bd/Debouncing_BD/ip/Debouncing_BD_Debouncer_ShiftReg_0_4/sim/Debouncing_BD_Debouncer_ShiftReg_0_4.vhd" \
+"../../../bd/Debouncing_BD/sim/Debouncing_BD.vhd" \
+
+# Do not sort compile order
+nosort

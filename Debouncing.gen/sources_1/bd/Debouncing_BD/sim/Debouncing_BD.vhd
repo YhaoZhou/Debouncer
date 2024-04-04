@@ -2,7 +2,7 @@
 --Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
---Date        : Thu Apr  4 10:40:58 2024
+--Date        : Thu Apr  4 11:07:28 2024
 --Host        : GL-725 running 64-bit major release  (build 9200)
 --Command     : generate_target Debouncing_BD.bd
 --Design      : Debouncing_BD

@@ -43,7 +43,6 @@ end Debouncer_ShiftReg;
 architecture Behavioral of Debouncer_ShiftReg is
     signal shift_reg : std_logic_vector(31 downto 0) := (others => '0'); -- Shift register, length 8 bits
     signal debounced_btn_temp : std_logic := '0'; -- Temporary storage for debounced button state
-    signal count_mark : integer range 0 to 100000 := 0; 
     
 begin
 
@@ -56,7 +55,6 @@ begin
             else
                 shift_reg(31 downto 1) <= shift_reg(30 downto 0);
                 shift_reg(0) <= btn;
-                count_mark <= count_mark + 1;
             end if;
         end if;
     end process;

@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="1,919.935 ns"></ZoomStartTime>
-      <ZoomEndTime time="7,292.234 ns"></ZoomEndTime>
-      <Cursor1Time time="11,000.000 ns"></Cursor1Time>
+      <ZoomStartTime time="1.153130 us"></ZoomStartTime>
+      <ZoomEndTime time="10.594746 us"></ZoomEndTime>
+      <Cursor1Time time="11.000000 us"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="239"></NameColumnWidth>
-      <ValueColumnWidth column_width="113"></ValueColumnWidth>
+      <ValueColumnWidth column_width="109"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="8" />
+   <WVObjectSize size="7" />
    <wvobject fp_name="/Debouncing_TB/uut_Debouncing_BD_wrapper/Debouncing_BD_i/Debouncer_ShiftReg_0/clk" type="logic">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
@@ -48,9 +48,5 @@
    <wvobject fp_name="/Debouncing_TB/uut_Debouncing_BD_wrapper/Debouncing_BD_i/Debouncer_ShiftReg_0/U0/debounced_btn" type="logic">
       <obj_property name="ElementShortName">debounced_btn</obj_property>
       <obj_property name="ObjectShortName">debounced_btn</obj_property>
-   </wvobject>
-   <wvobject fp_name="/Debouncing_TB/uut_Debouncing_BD_wrapper/Debouncing_BD_i/Debouncer_ShiftReg_0/U0/count_mark" type="other">
-      <obj_property name="ElementShortName">count_mark</obj_property>
-      <obj_property name="ObjectShortName">count_mark</obj_property>
    </wvobject>
 </wave_config>

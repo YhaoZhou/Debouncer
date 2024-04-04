@@ -2,10 +2,10 @@
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-// Date        : Thu Apr  4 10:42:25 2024
+// Date        : Thu Apr  4 11:03:40 2024
 // Host        : GL-725 running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               d:/Zynq_Pro/Debouncing_20240403/Debouncing/Debouncing.gen/sources_1/bd/Debouncing_BD/ip/Debouncing_BD_Debouncer_ShiftReg_0_4/Debouncing_BD_Debouncer_ShiftReg_0_4_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top Debouncing_BD_Debouncer_ShiftReg_0_4 -prefix
+//               Debouncing_BD_Debouncer_ShiftReg_0_4_ Debouncing_BD_Debouncer_ShiftReg_0_4_stub.v
 // Design      : Debouncing_BD_Debouncer_ShiftReg_0_4
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xczu3eg-sbva484-1-e
