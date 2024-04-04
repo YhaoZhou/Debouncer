@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Debouncing.gen/sources_1/bd/Debouncing_BD/ipshared/ec67/hdl" --include "../../../../Debouncing.gen/sources_1/bd/Debouncing_BD/ipshared/2fcd/hdl" --include "D:/vivado/Vivado/2023.2/data/xilinx_vip/include" \
+"../../../../Debouncing.ip_user_files/bd/Debouncing_BD/ip/Debouncing_BD_zynq_ultra_ps_e_0_0/sim/Debouncing_BD_zynq_ultra_ps_e_0_0_vip_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

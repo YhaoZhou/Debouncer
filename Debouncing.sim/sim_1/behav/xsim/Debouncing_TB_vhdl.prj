@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Debouncing.srcs/sources_1/new/Debouncing_Model.vhd" \
+"../../../../Debouncing.ip_user_files/bd/Debouncing_BD/ip/Debouncing_BD_rst_ps8_0_100M_0/sim/Debouncing_BD_rst_ps8_0_100M_0.vhd" \
+"../../../../Debouncing.ip_user_files/bd/Debouncing_BD/ip/Debouncing_BD_Debouncer_ShiftReg_0_4/sim/Debouncing_BD_Debouncer_ShiftReg_0_4.vhd" \
+"../../../../Debouncing.ip_user_files/bd/Debouncing_BD/sim/Debouncing_BD.vhd" \
+"../../../../Debouncing.gen/sources_1/bd/Debouncing_BD/hdl/Debouncing_BD_wrapper.vhd" \
+"../../../../Debouncing.srcs/sim_1/new/Debouncing_TB.vhd" \
+
+# Do not sort compile order
+nosort
